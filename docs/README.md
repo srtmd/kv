@@ -1,4 +1,4 @@
-# CSGOLuck - Gambling Site (Fake one)
+# Karambit - Gambling Site (Fake one)
 
 **What i used in this project:**
 

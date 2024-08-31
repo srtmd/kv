@@ -217,7 +217,7 @@ setInterval(() => {
 					"main-roulette__lastdrops-item-img"
 				);
 				lastDropItemImg.setAttribute("alt", "Coin Icon");
-				lastDropItemImg.setAttribute("src", "./dist/img/other/coin.png");
+				lastDropItemImg.setAttribute("src", "./dist/img/other/tr.webp");
 				lastDropItem.append(lastDropItemImg);
 				lastDropItem.setAttribute(
 					"class",
@@ -277,7 +277,7 @@ setInterval(() => {
 					"main-roulette__lastdrops-item-img"
 				);
 				lastDropItemImg.setAttribute("alt", "Coin Icon");
-				lastDropItemImg.setAttribute("src", "./dist/img/other/coin.png");
+				lastDropItemImg.setAttribute("src", "./dist/img/other/ct.webp");
 				lastDropItem.append(lastDropItemImg);
 				lastDropItem.setAttribute(
 					"class",
@@ -336,7 +336,7 @@ setInterval(() => {
 					"main-roulette__lastdrops-item-img"
 				);
 				lastDropItemImg.setAttribute("alt", "Coin Icon");
-				lastDropItemImg.setAttribute("src", "./dist/img/other/coin.png");
+				lastDropItemImg.setAttribute("src", "./dist/img/other/luck.png");
 				lastDropItem.append(lastDropItemImg);
 				lastDropItem.setAttribute(
 					"class",
@@ -426,7 +426,7 @@ const betAmountRed = () => {
 		<p class="main-roulette__betbuttons-players-player-amount">
 			<img
 			class="main-roulette__betbuttons-players-player-amount-img"
-			src="./dist/img/other/coin.png"
+			src="./dist/img/other/tr.webp"
 			alt="Coin Icon"
 		/>
 		<span class="playerbet">${playerBetAmountRed}</span>
@@ -468,7 +468,7 @@ const betAmountBlack = () => {
 		<p class="main-roulette__betbuttons-players-player-amount">
 			<img
 			class="main-roulette__betbuttons-players-player-amount-img"
-			src="./dist/img/other/coin.png"
+			src="./dist/img/other/ct.webp"
 			alt="Coin Icon"
 		/>
 		<span class="playerbet">${playerBetAmountBlack}</span>
@@ -509,7 +509,7 @@ const betAmountGreen = () => {
 		<p class="main-roulette__betbuttons-players-player-amount">
 			<img
 			class="main-roulette__betbuttons-players-player-amount-img"
-			src="./dist/img/other/coin.png"
+			src="./dist/img/other/luck.png"
 			alt="Coin Icon"
 		/>
 		<span class="playerbet">${playerBetAmountGreen}</span>
@@ -538,7 +538,7 @@ const addRandomColorDropsToLastDrops = () => {
 
 		lastDropItemImg.setAttribute("class", "main-roulette__lastdrops-item-img");
 		lastDropItemImg.setAttribute("alt", "Coin Icon");
-		lastDropItemImg.setAttribute("src", "./dist/img/other/coin.png");
+		lastDropItemImg.setAttribute("src", "./dist/img/other/luck.png");
 		lastDropItem.append(lastDropItemImg);
 		lastDropItem.setAttribute(
 			"class",
