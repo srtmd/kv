@@ -58,8 +58,6 @@ const lastDropBg = [
 	"rgba(255, 112, 183, 0.2) 100%",
 	"rgba(125, 50, 255, 0.1) 100%",
 	"rgba(75, 138, 255, 0.2) 100%",
-	"rgba(75, 138, 255, 0.2) 100%",
-	"rgba(75, 138, 255, 0.2) 100%",
 ];
 const red =
 	"linear-gradient(180deg, black 40%, rgba(222, 76, 65, .5) 100%)";
@@ -67,12 +65,8 @@ const pink =
 	"linear-gradient(180deg, black 40%, rgba(255, 50, 240, .5) 100%)";
 const purple =
 	"linear-gradient(180deg, black 40%, rgba(125, 50, 255, .5) 100%)";
-const lightBlue =
-	"linear-gradient(180deg, black 40%, rgba(160, 211, 255, .5) 100%)"; 
 const blue =
 	"linear-gradient(180deg, black 40%, rgba(50, 113, 255, .5) 100%)";
-const grey =
-	"linear-gradient(180deg, black 40%, rgba(78, 78, 78, .5) 100%)";
 let opened = false;
 let currentWinningItemPrice;
 const balanceAmount = document.querySelector(".nav__list-item-balance-amount");
@@ -121,12 +115,8 @@ const setWinningItem = () => {
 		chances = 1;
 	} else if (chances > 10 && chances <= 20) {
 		chances = 2;
-	} else if (chances > 20 && chances <= 40) {
-		chances = 3;
-	} else if (chances > 40 && chances <= 60) {
-		chances = 4;
 	} else {
-		chances = 5;
+		chances = 3;
 	}
 
 	if (winningItemNumber <= 1) {
@@ -135,12 +125,8 @@ const setWinningItem = () => {
 		winningItem.style.background = pink;
 	} else if (winningItemNumber > 10 && winningItemNumber <= 20) {
 		winningItem.style.background = purple;
-	} else if (winningItemNumber > 20 && winningItemNumber <= 40) {
-		winningItem.style.background = blue;
-	} else if (winningItemNumber > 40 && winningItemNumber <= 60) {
-		winningItem.style.background = lightBlue;
 	} else {
-		winningItem.style.background = grey;
+		winningItem.style.background = blue;
 	}
 	
 	const randomItemFromColor = Math.floor(
@@ -265,12 +251,8 @@ const addItems = () => {
 			chances = 1;
 		} else if (chances > 10 && chances <= 20) {
 			chances = 2;
-		} else if (chances > 20 && chances <= 40) {
-			chances = 3;
-		} else if (chances > 40 && chances <= 60) {
-			chances = 4;
 		} else {
-			chances = 5;
+			chances = 3;
 		}
 
 		const randomItemFromColor = Math.floor(
@@ -283,12 +265,8 @@ const addItems = () => {
 			normalItem.style.background = pink;
 		} else if (normalItemNumber > 10 && normalItemNumber <= 20) {
 			normalItem.style.background = purple;
-		} else if (normalItemNumber > 20 && normalItemNumber <= 40) {
-			normalItem.style.background = blue;
-		} else if (normalItemNumber > 40 && normalItemNumber <= 60) {
-			normalItem.style.background = lightBlue;
 		} else {
-			normalItem.style.background = grey;
+			normalItem.style.background = blue;
 		}
 
 		normalItem.setAttribute("class", "case-item");
@@ -330,12 +308,8 @@ const addItems = () => {
 			chances = 1;
 		} else if (chances > 10 && chances <= 20) {
 			chances = 2;
-		} else if (chances > 20 && chances <= 40) {
-			chances = 3;
-		} else if (chances > 40 && chances <= 60) {
-			chances = 4;
 		} else {
-			chances = 5;
+			chances = 3;
 		}
 
 		const randomItemFromColor = Math.floor(
@@ -348,12 +322,8 @@ const addItems = () => {
 			normalItem.style.background = pink;
 		} else if (normalItemNumber > 10 && normalItemNumber <= 20) {
 			normalItem.style.background = purple;
-		} else if (normalItemNumber > 20 && normalItemNumber <= 40) {
-			normalItem.style.background = blue;
-		} else if (normalItemNumber > 40 && normalItemNumber <= 60) {
-			normalItem.style.background = lightBlue;
 		} else {
-			normalItem.style.background = grey;
+			normalItem.style.background = blue;
 		}
 		
 		normalItem.setAttribute("class", "case-item");
